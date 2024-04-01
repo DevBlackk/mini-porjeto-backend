@@ -4,8 +4,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node src/server.js",
-    "server": "node --watch src/server.js"
+    "start": "node --env-file=./.env src/server.js",
+    "server": "node --watch --env-file=./.env src/server.js"
   },
   "repository": "https://github.com/DevBlackk/mini-projeto-m5.git",
   "author": "Davidson William <davidsonwferreira8@gmail.com>",
