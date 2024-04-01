@@ -1,0 +1,23 @@
+{
+  "name": "mini-projeto-m5",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "server": "node --watch src/server.js"
+  },
+  "repository": "https://github.com/DevBlackk/mini-projeto-m5.git",
+  "author": "Davidson William <davidsonwferreira8@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "pg": "^8.11.3",
+    "sequelize": "^6.37.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0"
+  }
+}
