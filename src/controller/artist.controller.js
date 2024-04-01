@@ -24,7 +24,6 @@ class ArtistController extends ArtistService {
     async getAllArtist(req, res) {
         try {
             res.status(200).json({
-                message: "Artist retrieved successfully",
                 result: await super.getAllArtistService(),
                 error: false,
             });
